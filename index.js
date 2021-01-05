@@ -5,6 +5,7 @@ function emptyTarget(val) {
 }
 
 function cloneUnlessOtherwiseSpecified(value, options) {
+	options.clone = false
 	return (options.clone !== false && options.isMergeableObject(value))
 		? deepmerge(emptyTarget(value), value, options)
 		: value
