@@ -9,13 +9,13 @@
     "clone",
     "recursive"
   ],
-  "version": "4.2.3",
+  "version": "4.2.4",
   "homepage": "https://github.com/fullstackers/deepmerge/",
   "repository": {
     "type": "git",
     "url": "git://github.com/fullstackers/deepmerge.git"
   },
-  "main": "dist/cjs.js",
+  "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
